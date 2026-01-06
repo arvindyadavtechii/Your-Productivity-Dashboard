@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Daseboard</title>
+    <link rel="shortcut icon" href="./fav/android-chrome-512x512.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+ <nav>
+    <div class="nav">
+    <h2>Your Productivity Dashboard !!</h2>
+<div class="theme">
+    <i class="ri-sun-fill"></i>
+</div>
+    </div>
+ </nav>
+    <section class="allelems">
+        <header>
+          <div class="header1">
+            <h2>6 Jan 2026</h2>
+              <h1> Saturday , 1:00 PM </h1>
+              <h4>Delhi , India</h4>
+          </div>
+            <div class="header2">
+                <h2>20 °C</h2>
+            <h3 class="pree">Preciption:35%</h3>
+            <h3 class="humi">Humidity: 49%</h3>
+            <h3 class="wind">Wind 10 km/h</h3>
+                 <h4>Light rain</h4>
+            </div>
+        </header>
+    <div class="allfeatures">
+    <div class="todo elem" id="0">
+        <img src="https://plus.unsplash.com/premium_photo-1674059169479-fd5850e2e341?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+        <h2>To Do list</h2> 
+    </div>
+    <div class="daily elem" id="1">
+        <img src="https://plus.unsplash.com/premium_photo-1674059169471-ba4b338f640d?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+        <h2>Daily Planner</h2> 
+    </div>
+    <div class="moti elem" id="2">
+        <img src="https://plus.unsplash.com/premium_photo-1681400701803-d5bb234f10af?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+        <h2>Motivation</h2>
+    </div>
+    <div class="pomo elem" id="3">
+        <img src="https://plus.unsplash.com/premium_photo-1666739389150-35678372df22?q=80&w=438&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img">
+        <h2>Pomodo Timer</h2>
+    </div>
+    </div>
+</section>
+
+<section class="fullelems todo-full-page">
+    <button class="back" id="0"><i class="ri-close-large-line"></i></button>
+        <h2>Your Pursonalised Task List</h2>
+        <div class="todo-container">
+            <div class="addtask">
+                <form >
+                    <h3>Add Task</h3>
+                    <input type="text" placeholder="Enter Task" id="task-input">
+                    <textarea name="" id="" placeholder="Enter Details"></textarea>
+                    <div class="mark-imp">
+                        <input type="checkbox" id="check">
+                        <label for="check">Mark as Important</label>
+                    </div>
+                    <button>Add</button>
+                </form>
+            </div>
+            <div class="alltask">
+            </div>
+        </div> 
+</section>
+
+<section class="fullelems Dailyp-full-page">
+    <button class="back" id="1"><i class="ri-close-large-line"></i></button>
+        <h2>Plan Your Day More Productive</h2> 
+        <div class="day-planner">
+            <!-- <div class="day-planner-time">
+                <p>6:00 -7:00</p>
+                <input type="text" placeholder="...">
+            </div>
+             <div class="day-planner-time">
+                <p>7:00-8:00</p>
+                <input type="text" placeholder="...">
+            </div> -->
+        </div>
+    </section>
+
+    <section class="fullelems Motivation-full-page">
+        <button class="back" id="2"><i class="ri-close-large-line"></i></button>
+        <div class="motivational-container">
+            <div class="motivational-wrapper">
+                <i class="ri-double-quotes-l"></i>
+                <div class="motivation1">
+                <h3>Quotes Of The Day !!!</h3>
+                </div>
+                <div class="motivation2">
+                    <h2></h2>
+                </div>
+                <div class="motivation3">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="fullelems Pomodo-full-page">
+        <button class="back" id="3"><i class="ri-close-large-line"></i></button>
+        <div class="jj">
+        <div class="pp">
+        <h4 class="session">Work Session</h4>
+        <div class="pomodo-timer">
+            <h3>25:00</h3>
+            <button class="start-time">Start</button>
+            <button class="pause-time">Pause</button>
+            <button class="reset-time">Reset</button>
+        </div>
+        </div>
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
