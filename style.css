@@ -183,7 +183,7 @@ header .header2 h3 {
 
 .elem {
   height: 350px;
-  width: 250px;
+  width: 260px;
   font-size: 20px;
   background-color: var(--for);
   overflow: hidden;
@@ -1143,5 +1143,6 @@ header .header2 h3 {
     z-index: 100;
   }
 }
+
 
 
