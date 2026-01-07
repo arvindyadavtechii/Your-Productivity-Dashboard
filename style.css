@@ -860,7 +860,8 @@ header .header2 h3 {
     max-height: calc(100vh - 250px);
     gap: 15px;
     overflow-y: auto;
-    padding-bottom: 160px;
+    padding-bottom: 60px;
+    margine-bottom:80px;
   }
   
   .todo-full-page .todo-container .addtask {
@@ -1142,6 +1143,7 @@ header .header2 h3 {
     z-index: 100;
   }
 }
+
 
 
 
