@@ -1,4 +1,4 @@
-# 📈Productivity Dashboard
+# 📈 Productivity Dashboard
 
 A modern **Productivity Dashboard Web App** designed to help users stay organized, focused, and productive.  
 This project provides an intuitive interface to manage daily tasks, track progress, and visualize productivity — all in one place.
