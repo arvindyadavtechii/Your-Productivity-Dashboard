@@ -182,7 +182,7 @@ header .header2 h3 {
 }
 
 .elem {
-  height: 350px;
+  height: 330px;
   width: 275px;
   font-size: 20px;
   background-color: var(--for);
@@ -1143,6 +1143,7 @@ header .header2 h3 {
     z-index: 100;
   }
 }
+
 
 
 
