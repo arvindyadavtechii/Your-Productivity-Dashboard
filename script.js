@@ -186,7 +186,7 @@ function pomodoro() {
           session.style.backgroundColor = "blue";
           totalseconds = 5 * 60;
         }
-      }, 1);
+      }, 1000);
     } else {
       timerintervel = setInterval(() => {
         if (totalseconds > 0) {
@@ -200,7 +200,7 @@ function pomodoro() {
           timer.innerHTML = "25:00";
           totalseconds = 25 * 60;
         }
-      }, 1);
+      }, 1000);
     }
   }
 
@@ -282,7 +282,7 @@ function weatherapi() {
     ];
 
     var date = new Date();
-    var hours = date.getHours() - 12;
+    var hours = date.getHours();
     var minutes = date.getMinutes().toString().padStart(2, "0");
     var seconds = date.getSeconds().toString().padStart(2, "0");
     var dayofweek = totaldayofweek[date.getDay()];
@@ -292,10 +292,12 @@ function weatherapi() {
 
     hearderdatey.innerHTML = `${datee} ${month} ${year}`;
 
-    if (hours > 12) {
-      header1date.innerHTML = ` ${dayofweek} , ${hours}:${minutes}:${seconds} AM `;
+    if (hours >= 12) {
+      var displayHours = hours > 12 ? hours - 12 : 12;
+      header1date.innerHTML = ` ${dayofweek} , ${displayHours}:${minutes}:${seconds} PM `;
     } else {
-      header1date.innerHTML = ` ${dayofweek} , ${hours}:${minutes}:${seconds} PM `;
+      var displayHours = hours === 0 ? 12 : hours;
+      header1date.innerHTML = ` ${dayofweek} , ${displayHours}:${minutes}:${seconds} AM `;
     }
   }
 
