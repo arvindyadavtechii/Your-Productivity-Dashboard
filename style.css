@@ -345,7 +345,8 @@ header .header2 h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   margin-top:40px;
-  margin-bottom:40px;
+  margin-bottom:80px;
+  padding:40px;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1143,6 +1144,7 @@ header .header2 h3 {
     z-index: 100;
   }
 }
+
 
 
 
